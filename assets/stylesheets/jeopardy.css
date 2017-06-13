@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.container {
+  display: inline-block;
+  width: 100%;
+
+}
+
+#category {
+  background-color: lightsteelblue;
+  width: 30%;
+  height: 100px;
+  float: left;
+}
+
+#question {
+  background-color: blanchedalmond;
+  width: 30%;
+  height: 100px;
+
+}
+
+#value {
+  background-color: palegreen;
+  width: 30%;
+  height: 100px;
+  float: right;
+}
+
+#guessText {
+  clear: all;
+  background-color: yellow;
+  width: 100%;
+  height: 100px;
+
+}
